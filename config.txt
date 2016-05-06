@@ -1,0 +1,13 @@
+region : us-east
+
+vpc
+  -ip : 1500
+
+subnet
+  -subnet1
+
+  	ip : 500
+  	pub : false
+  	az : us-east-1
+
+  -subnet2
